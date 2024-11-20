@@ -1,13 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
+/* Le corps de la page occupe toute la hauteur de l'écran */
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
+    
 }
 
-header, footer {
-    padding: 10px;
+/* Conteneur global qui occupe toute la hauteur de la fenêtre */
+#page-container {
+    min-height: 100vh;  
+    display: flex;
+    flex-direction: column;
 }
 
-h1, h2 {
-    color: #333;
+/* Le contenu principal doit remplir l'espace restant */
+#content-wrap {
+    flex-grow: 1;  
+}
+
+/* Pied de page - Reste toujours en bas de la page */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
