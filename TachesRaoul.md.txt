@@ -1,0 +1,6 @@
+Tâche de Raoul:
+1.  mettre le prix en vert et les heures en violet et "comment procéder au paiement" en rouge
+2.  mettre le texte sur l image de la page d acceuil en noir
+3.  mettre une langue d ecriture pour les questions differente des reponses
+4.  creer une partie sur l acceuil pour faire un don et je met mon paypal me.
+6.  mettre toutes les réponses en gras
