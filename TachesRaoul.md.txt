@@ -1,6 +1,6 @@
 Tâche de Raoul:
-1.  mettre le prix en vert et les heures en violet et "comment procéder au paiement" en rouge
-2.  mettre le texte sur l image de la page d acceuil en noir
-3.  mettre une langue d ecriture pour les questions differente des reponses
-4.  creer une partie sur l acceuil pour faire un don et je met mon paypal me.
-6.  mettre toutes les réponses en gras
+1.  mettre le prix en vert et les heures en violet et "comment procéder au paiement" en rouge: fait jy ai aussi ajouter des variables RGB pour changer de couleur comme tu le souhaite.
+2.  mettre le texte sur l image de la page d acceuil en noir: ca ne se voit pas en noir, jai mis une variable RGB a ce niveau dans le code tu pourras choisir la couleur qui te convient. jai aussi profite pour mettre les textes d#acceuil en gras.
+3.  mettre une langue d ecriture pour les questions differente des reponses : il sagit dun site multilinguistique. la langue de la reponse depend de la langue choisie au debut.
+4.  creer une partie sur l acceuil pour faire un don et je met mon paypal me : je lai fait mais plutot dans la partie paiement , est ce que ce serai bien d'arriver sur un nouveau site et de tomber une fois sur les dons a faire , je trouve cela personellement pas interressant . mais si tu le souhaite je le mettrai a l'acceuil.
+6.  mettre toutes les réponses en gras: oui fait avec la balise <strong>
