@@ -12,22 +12,41 @@
 
 <body>
     <!-- Haut de page -->
-    <header class="bg-dark text-white py-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="h3">Pro IN Deutsch</h1>
-            <nav>
-                <a href="index.html" id="nav-home" class="text-white me-3">Accueil</a>
-                <a href="paiement.html" id="nav-payment" class="text-white me-3">Paiement</a>
-                <a href="contact.html" id="nav-contact" class="text-white me-3">Contact</a>
-                <a href="about.html" id="nav-about" class="text-white">Pourquoi nous?</a>
-            </nav>
-            <select id="language-selector" class="form-select w-auto">
-                <option value="fr">Français</option>
-                <option value="en">English</option>
-                <option value="de">Deutsch</option>
-            </select>
-        </div>
-    </header>
+    <div id="page-container">
+        <header class="bg-dark text-white py-3">
+            <div class="container">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand h3" href="index.html">Pro IN Deutsch</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="index.html" id="nav-home" class="nav-link">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="paiement.html" id="nav-payment" class="nav-link">Paiement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" id="nav-contact" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" id="nav-about" class="nav-link">Pourquoi nous?</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-lg-3">
+                            <select id="language-selector" class="form-select w-auto">
+                                <option value="fr">Français</option>
+                                <option value="en">English</option>
+                                <option value="de">Deutsch</option>
+                            </select>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </header>
     <!-- Contenu principal -->
     <main class="container py-5">
         <!-- Section principale "Pourquoi Nous" -->
