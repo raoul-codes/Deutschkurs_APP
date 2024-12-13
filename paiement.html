@@ -39,86 +39,44 @@
 
                     <!-- Liste des prix avec durée -->
                     <div class="row">
-                        <div class="col-md-8 offset-md-2">
+                        <div class="col-md-6 offset-md-3">
                             <ul id="prices" class="list-group list-group-flush">
-                                <!-- Niveau A1.1/A1.2 -->
-                                <li class="list-group-item">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-4">
-                                            <span>A1.1/A1.2</span>
-                                            <span class="badge bg-info text-dark ms-3">Débutant</span>
-                                        </div>
-                                        <div class="col-md-4 text-center">
-                                            <span class="badge bg-info text-dark">24 heures</span>
-                                        </div>
-                                        <div class="col-md-4 text-end">
-                                            <span class="badge bg-primary rounded-pill">220 Euros</span>
-                                        </div>
-                                    </div>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    A1.1/A1.2 
+                                    <span class="badge bg-info text-dark rounded-pill">Débutant</span>
+                                    <span class="badge rounded-pill" style="background-color: violet;">24 heures</span>
+                                    <span class="badge rounded-pill" style="background-color: green;">220 Euros</span>
                                 </li>
 
                                 <!-- Niveau A2.1/A2.2 -->
-                                <li class="list-group-item">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-4">
-                                            <span>A2.1/A2.2</span>
-                                            <span class="badge bg-info text-dark ms-3">Élémentaire</span>
-                                        </div>
-                                        <div class="col-md-4 text-center">
-                                            <span class="badge bg-info text-dark">24 heures</span>
-                                        </div>
-                                        <div class="col-md-4 text-end">
-                                            <span class="badge bg-primary rounded-pill">230 Euros</span>
-                                        </div>
-                                    </div>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    A2.1/A2.2 
+                                    <span class="badge bg-info text-dark rounded-pill">Elementaire</span>
+                                    <span class="badge rounded-pill" style="background-color: violet;">24 heures</span>
+                                    <span class="badge rounded-pill" style="background-color: green;">220 Euros</span>
                                 </li>
 
                                 <!-- Niveau B1.1/B1.2 -->
-                                <li class="list-group-item">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-4">
-                                            <span>B1.1/B1.2</span>
-                                            <span class="badge bg-info text-dark ms-3">Intermédiaire</span>
-                                        </div>
-                                        <div class="col-md-4 text-center">
-                                            <span class="badge bg-info text-dark">24 heures</span>
-                                        </div>
-                                        <div class="col-md-4 text-end">
-                                            <span class="badge bg-primary rounded-pill">240 Euros</span>
-                                        </div>
-                                    </div>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    B1.1/B1.2
+                                    <span class="badge bg-info text-dark rounded-pill">Intermédiaire</span>
+                                    <span class="badge rounded-pill" style="background-color: violet;">24 heures</span>
+                                    <span class="badge rounded-pill" style="background-color: green;">240 Euros</span>
                                 </li>
-
                                 <!-- Niveau B2.1/B2.2 -->
-                                <li class="list-group-item">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-4">
-                                            <span>B2.1/B2.2</span>
-                                            <span class="badge bg-info text-dark ms-3">Avancé</span>
-                                        </div>
-                                        <div class="col-md-4 text-center">
-                                            <span class="badge bg-info text-dark">24 heures</span>
-                                        </div>
-                                        <div class="col-md-4 text-end">
-                                            <span class="badge bg-primary rounded-pill">250 Euros</span>
-                                        </div>
-                                    </div>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    B2.1/B2.2 
+                                    <span class="badge bg-info text-dark rounded-pill">Avancé</span>
+                                    <span class="badge rounded-pill" style="background-color: violet;">24 heures</span>
+                                    <span class="badge rounded-pill" style="background-color: green;">250 Euros</span>
                                 </li>
 
                                 <!-- Niveau C1 -->
-                                <li class="list-group-item">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-4">
-                                            <span>C1</span>
-                                            <span class="badge bg-info text-dark ms-3">Professionnel</span>
-                                        </div>
-                                        <div class="col-md-4 text-center">
-                                            <span class="badge bg-info text-dark">24 heures</span>
-                                        </div>
-                                        <div class="col-md-4 text-end">
-                                            <span class="badge bg-primary rounded-pill">270 Euros</span>
-                                        </div>
-                                    </div>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    C1
+                                    <span class="badge bg-info text-dark rounded-pill">Professionnel</span>
+                                    <span class="badge rounded-pill" style="background-color: violet;">24 heures</span>
+                                    <span class="badge rounded-pill" style="background-color: green;">270 Euros</span>
                                 </li>
 
                                 <!-- Prime de recommandation -->
@@ -145,7 +103,8 @@
                     <br><br>
 
                     <!-- Section de paiement -->
-                    <h3 class="mb-4 text-center">Comment procéder au paiement</h3>
+                    <section class="mt-5">
+                    <h3 class="mb-4 text-danger" style="font-weight: bold;">Comment procéder au paiement</h3>
                     <p class="lead text-center mb-5">
                         Le paiement peut se faire en 2 tranches. Par exemple la première tranche du A1.1 côute 120 Euros et la deuxième côute 100 Euros. La deuxième tranche se paye 2 Semaines après la première. Vous pouvez payer vos cours de deux manières :
                     </p>
@@ -177,6 +136,17 @@
                             </ul>
                         </div>
                     </div>
+                </section>
+
+                <!-- Section de dons -->
+    <section class="mt-5 text-center">
+        <h3 style="font-weight: bold;">Faites un don pour soutenir notre projet</h3>
+        <p style="font-weight: bold;">Vos dons nous aident à offrir un apprentissage de qualité accessible à tous.</p>
+        <a href="https://www.paypal.me/tonpaypalme" class="btn btn-primary btn-lg" target="_blank" style="font-weight: bold;">
+            Faire un don via PayPal
+        </a>
+    </section>
+
                 </section>
             </main>
 
