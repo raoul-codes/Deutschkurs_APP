@@ -14,27 +14,46 @@
     <!-- Haut de page -->
     <div id="page-container">
         <header class="bg-dark text-white py-3">
-            <div class="container d-flex justify-content-between align-items-center">
-                <h1 class="h3">Pro IN Deutsch</h1>
-                <nav>
-                    <a href="index.html" id="nav-home" class="text-white me-3">Accueil</a>
-                    <a href="paiement.html" id="nav-payment" class="text-white me-3">Paiement</a>
-                    <a href="contact.html" id="nav-contact" class="text-white me-3">Contact</a>
-                    <a href="about.html" id="nav-about" class="text-white">Pourquoi nous?</a>
+            <div class="container">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand h3" href="index.html">Pro IN Deutsch</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="index.html" id="nav-home" class="nav-link">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="paiement.html" id="nav-payment" class="nav-link">Paiement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" id="nav-contact" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" id="nav-about" class="nav-link">Pourquoi nous?</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-lg-3">
+                            <select id="language-selector" class="form-select w-auto">
+                                <option value="fr">Français</option>
+                                <option value="en">English</option>
+                                <option value="de">Deutsch</option>
+                            </select>
+                        </form>
+                    </div>
                 </nav>
-                <select id="language-selector" class="form-select w-auto">
-                <option value="fr">Français</option>
-                <option value="en">English</option>
-                <option value="de">Deutsch</option>
-            </select>
             </div>
         </header>
+    
 
         <main class="container py-5">
             <!-- Section d'introduction avec une image de fond inspirante -->
-            <section class="text-center" style="background-image: url('img1.jpg'); background-size: cover; padding: 60px 0; color: white;">
-                <h2 id="welcome-title" class="display-3" style="font-weight: bold;color: bisque;">Bienvenue sur Pro IN Deutsch</h2>
-                <p id="welcome-text" class="lead mb-5" style="font-size: 1.5rem; font-weight: bold;color: rgb(15, 228, 79);">Apprenez l'allemand de manière efficace et interactive, avec des cours entièrement en ligne adaptés à tous les niveaux !</p>
+            <section class="text-center" style="background-image: url('img4.jpg'); background-size: cover; padding: 60px 0; color: white;">
+                <h2 id="welcome-title" class="display-3" style="font-weight: bold;color: white;">Bienvenue sur Pro IN Deutsch</h2>
+                <p id="welcome-text" class="lead mb-5" style="font-size: 1.5rem; font-weight: bold;color: rgb(12, 245, 90);">Apprenez l'allemand de manière efficace et interactive, avec des cours entièrement en ligne adaptés à tous les niveaux !</p>
                 <a href="#cours" class="btn btn-light btn-lg">En savoir plus</a>
             </section>
 
@@ -54,14 +73,14 @@
                         <p>3 jours par semaine, pour un apprentissage régulier et efficace.</p>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <img src="img4.jpg" alt="Cours individuel" class="img-fluid rounded mb-3" style="width: 100%; height: 200px; object-fit: cover;">
+                        <img src="img1.jpg" alt="Cours individuel" class="img-fluid rounded mb-3" style="width: 100%; height: 200px; object-fit: cover;">
                         <h4>Groupe ou individuel</h4>
                         <p>Choisissez la formule qui vous convient : en groupe ou seul à seul.</p>
                     </div>
                 </div>
                 <!-- Prime de recommandation -->
                 <div class="text-center mt-5">
-                    <h4 class="display-6 text-success">Gagnez 10€ pour chaque recommandation !</h4>
+                    <h4 class="display-6 text-success"><strong>Gagnez 10€ pour chaque recommandation !</strong></h4>
                     <p class="lead">Recommandez nos cours à vos amis et gagnez une prime pour chaque inscription pour deux mois au minimum grâce à vous.</p>
                 </div>
             </section>
